@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background-image: url(image/back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+.glass{
+    width: 930px;
+    height: 600px;
+    box-shadow: 0 0 8px rgba(255,255,255,1);
+    background: url(image/front.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 30px 8%;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.1s ease-out;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -7px;
+    transition: 0.1s ease;
+}
+img:hover{
+    border: 2px solid white;
+}
+h3{
+    color: white;
+    font-style: italic;
+    margin: 80px 110px -25px;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h1{
+    color: white;
+    margin: 0 110px;
+    font-size: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    opacity: 0.6;
+    background: linear-gradient(45deg , black,white,black,white,black);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.icons i{
+    color: white;
+}
+.icons{
+    display: flex;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.icons ul{
+    flex: 1;
+    text-align: right;
+}
+.icons{
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+    padding: 10px;
+}
