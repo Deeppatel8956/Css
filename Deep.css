@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #131333;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.bol a{
+    text-decoration: none;
+    color: white;
+}
+.bol li a:hover{
+    cursor: pointer;
+    color: aqua;
+    font-size: 1.04rem;
+}
+ 
+.left{
+    font-size: 1.8rem;
+}
+
+
+
+/* section */
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+    letter-spacing: normal;
+    align-items: center;
+}
+.firstsection >div{
+    width: 30%;
+}
+.leftsection{
+     font-size: 3rem;
+}
+ .bon{
+    border: 2px solid blue;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #10107aa7;
+    color: white;
+}
+
+.get{
+    border: 2px solid blue;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #10107aa7;
+    color: white;
+}
+
+.name{
+    color: blueviolet;
+}
+#element{
+    color: blueviolet;
+}
+
+/* secondsection */
+main hr{
+    border: 0;
+    background-color: rgb(57, 57, 203);
+    height: 2px;
+    margin: 40px 80px;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto ;
+    height: 35vw;
+}
+.size{
+    font-size: 1.9rem;
+}
+.text{
+    color: gray;
+}
+.secondsection .box{
+    background-color: white;
+    width: 77vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+}
+ .vertical{
+   background-color: white;
+   height: 9vh;
+   width: 1px;
+   margin: 0 100px;
+}
+.img-top{
+    width: 23px;
+    position: relative;
+    top: -25px;
+    left: -12px;
+}
+.vertical-title{
+    position: relative;
+    top: 50px;
+    width: 150px;
+    font-size: 1.2rem;
+}
+.vertical-dec{
+    position: relative;
+    top: 60px;
+    width: 150px;
+    color: gray;
+    font-size: 15px;
+}
+
+
+/* footer */
+footer{
+    background-color: #0c0303;
+    height: 233px;
+}
+.footer{
+    display: flex;
+    padding: 34px 100px;
+    justify-content: space-around;
+}
+.footer ul li{
+    list-style: none;
+}
+.last{
+    text-align: center;
+    margin: 50px 0;
+}
