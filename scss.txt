@@ -1,0 +1,7 @@
+npm init
+
+node i sass --save --dev
+
+create html file
+
+create css file
