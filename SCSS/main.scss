@@ -1,0 +1,24 @@
+@import 'Variable.scss';
+@import 'mixin.scss';
+h1{
+    @include como;
+}
+p{
+    @include como;
+}
+a{
+    color: $color-blue;
+}
+
+
+div{
+    ul{
+        background-color: yellow;
+        margin:10px 10px ;
+        li{
+            list-style: none;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+    }
+}
