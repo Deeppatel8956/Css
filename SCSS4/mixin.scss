@@ -1,0 +1,35 @@
+// varible
+
+// $color-blue:blue;
+// h1{
+//     color: $color-blue;
+// }
+// p{
+//     color: $color-blue;
+// }
+// a{
+//     color: $color-blue;
+// }
+
+
+// nested
+// div{
+//     ul{
+//         background-color: yellow;
+//         margin:10px 10px ;
+//         li{
+//             list-style: none;
+//             display: inline-block;
+//             text-transform: uppercase;
+//         }
+//     }
+// }
+
+
+// Mixien and include
+@mixin como{
+    color: $color-blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+}
