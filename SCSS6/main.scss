@@ -1,0 +1,54 @@
+@import 'Variable.scss';
+@import 'mixin.scss';
+@import 'extend.scss';
+@import 'opretar.scss';
+@import 'function.scss';
+
+// opreater
+// color
+.test{
+    height:$main-weidth+px;
+    width:   $main-weidth +px;
+    background-color: darken($color: blue, $amount: 40);
+   
+    
+}
+$num:10;
+
+// function
+.one{
+    width: half($main-higth);
+    margin: variable-exists($name: num);
+    padding: global-variable-exists($name: num);
+    
+}
+
+
+
+
+h1{
+    @include como;
+    @extend %first;
+}
+p{
+    @include como;
+    @extend %first;
+}
+a{
+    color: $color-blue;
+}
+
+
+div{
+    ul{
+        background-color: yellow;
+        margin:10px 10px ;
+        li{
+            list-style: none;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
