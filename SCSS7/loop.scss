@@ -1,0 +1,43 @@
+// loop
+@for $i from 1 through 3{
+    .one-#{$i}{
+     width: 10px * $i;
+     background-color: darken($color: red, $amount: $i *10%);
+    } 
+ }
+ 
+ // each loop start map and list
+ $list:(normal,bold,italic);
+ @each $i in $list{
+     .#{$i}{
+         font-weight: $i;
+     }
+ }
+ 
+ // multidimansion
+ $list1:((normal,bold,italic),(emphasis,bold,15px));
+ @each $name,$style,$size in $list{
+     .#{$name}{
+         font-weight: $style;
+         font-size: $size;
+     }
+ }
+ 
+ // map
+ $map:(normal:10px,bold:20px,italic:30px);
+ @each $i,$f-size in $map{
+     .#{$i}{
+         font-weight: $i;
+         font-size: $f-size;
+     }
+ }
+ 
+ // while loop
+ $i:10;
+ @while $i <= 50{
+     .test-#{$i}{
+         font-size: 1px * $i;
+     }
+     $i:$i+10
+ }
+ 
