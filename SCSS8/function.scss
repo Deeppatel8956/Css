@@ -1,3 +1,4 @@
 $main-higth:1000;
 @function half($width){
+    @return $width/2+px;
 }
