@@ -1,0 +1,73 @@
+Sure, here are 50 Bootstrap 5 interview questions and answers in Hindi for 2024:
+
+1. **Bootstrap 5 क्या है?**
+   Bootstrap 5 एक popular open-source front-end framework है जिसे CSS, HTML, और JavaScript की मदद से responsive और mobile-first websites बनाने के लिए डिज़ाइन किया गया है।
+
+2. **Bootstrap 5 के नए फीचर्स क्या हैं?**
+   Bootstrap 5 में स्थिरता, परफ़ॉर्मेंस, और साधारणता को ध्यान में रखकर कई नए फीचर्स शामिल किए गए हैं। इनमें हैं CSS Custom Properties, jQuery का पूरी तरह से बाहर निकाल दिया जाना, और अधिक रेस्पॉंसिव और mobile-first तरीके से डिज़ाइन फीचर्स।
+
+3. **Bootstrap 5 में CSS Custom Properties क्या हैं?**
+   CSS Custom Properties या CSS variables यूज़ करने से, डिज़ाइन को और स्थिर बनाने के लिए आसानी से variables का उपयोग किया जा सकता है। इससे Bootstrap 5 में customization और control को बढ़ाया गया है।
+
+4. **Bootstrap 5 के components क्या हैं?**
+   बूटस्ट्रैप 5 में कई प्रकार के components हैं जैसे की buttons, forms, navbar, cards, carousel, modal, dropdowns, alerts, tooltips, और प्रकार।
+
+5. **Bootstrap 5 में grid system क्या है?**
+   Bootstrap 5 में 12-column responsive grid system है जिससे layout को आसानी से डिज़ाइन किया जा सकता है। इससे पेज को 12 भागों में बाँटकर प्रत्येक column को flexbox की मदद से प्लेस किया जा सकता है।
+
+6. **Bootstrap 5 में utility classes क्या होते हैं?**
+   Utility classes व्यवस्थित CSS classes होते हैं जो styling और layout को तेज़ी से apply करने में मदद करते हैं, जैसे की margin, padding, text align, और अन्य।
+
+7. **Bootstrap 5 में dark mode कैसे इनबिल करें?**
+   Dark mode को इनबिल करने के लिए, `data-bs-scheme` attribute को elements पर add करें और उसे `dark` या `light` में set करें।
+
+8. **Bootstrap 5 में forms कैसे create करें?**
+   Forms बनाने के लिए `<form>` element का use करें और Bootstrap 5 के classes जैसे `.form-control`, `.form-label`, `.form-group` का use करें।
+
+9. **Bootstrap 5 में navigation bar कैसे create करें?**
+   Navbar बनाने के लिए `<nav>` element का use करें और `class="navbar navbar-expand-lg navbar-light bg-light"` जैसे classes दें।
+
+10. **Bootstrap 5 में cards कैसे use करें?**
+    Cards को use करने के लिए `<div class="card">` element का use करें और उसमें `.card-body`, `.card-title`, और `.card-text` के classes दें।
+
+11. **Bootstrap 5 में carousel कैसे create करें?**
+    Carousel create करने के लिए `<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">` जैसे HTML structure बनाएं और images या content को `<div class="carousel-inner">` में add करें।
+
+12. **Bootstrap 5 में tooltip कैसे use करें?**
+    Tooltip use करने के लिए `data-bs-toggle="tooltip"` और `title="Tooltip text"` के साथ elements पर `data-bs-placement` attribute जैसे `top`, `bottom`, `left`, `right` set करें।
+
+13. **Bootstrap 5 में modal कैसे create करें?**
+    Modal create करने के लिए `<div class="modal">` element का use करें और `data-bs-toggle="modal"` attribute दें। Modal header, body, और footer जोड़ें।
+
+14. **Bootstrap 5 में dropdowns कैसे create करें?**
+    Dropdown create करने के लिए `<div class="dropdown">` element का use करें और `data-bs-toggle="dropdown"` attribute दें। Dropdown menu `<div class="dropdown-menu">` में add करें।
+
+15. **Bootstrap 5 में accordion कैसे create करें?**
+    Accordion create करने के लिए `<div class="accordion">` element का use करें और `data-bs-parent="#accordionExample"` attribute दें। Collapsible panels `<div class="accordion-item">` में add करें।
+
+16. **Bootstrap 5 में table कैसे create करें?**
+    Table create करने के लिए `<table class="table">` element का use करें और `<thead>`, `<tbody>`, `<tr>`, `<th>` और `<td>` elements add करें।
+
+17. **Bootstrap 5 में typography classes क्या हैं?**
+    Typography classes जैसे `.display-1`, `.lead`, `.text-muted` आदि उपयोगकर्ता के लिए विभिन्न text styling options प्रदान करते हैं।
+
+18. **Bootstrap 5 में spacing utilities कैसे use करें?**
+    Spacing utilities जैसे `.m-2`, `.p-3` इत्यादि का use करके margin और padding लगाने में मदद करते हैं।
+
+19. **Bootstrap 5 में form validation कैसे implement करें?**
+    Form validation के लिए Bootstrap 5 में `was-validated` class को form element पर add करें और required fields के लिए `required` attribute दें।
+
+20. **Bootstrap 5 में responsive design कैसे ensure करें?**
+    Responsive design ensure करने के लिए Bootstrap 5 के grid system और
+
+
+responsive utility classes का प्रयोग करें। `.container`, `.container-fluid` और `.row` classes का use करें जो Bootstrap 5 में responsive design को सुनिश्चित करने में मदद करते हैं।
+
+21. **Bootstrap 5 में dark mode कैसे implement कर सकते हैं?**
+    Dark mode को implement करने के लिए CSS variables या Bootstrap 5 के utilities classes का उपयोग कर सकते हैं जैसे `.bg-dark`, `.text-white` आदि।
+
+22. **Bootstrap 5 में कैसे custom theme create करें?**
+    Custom theme create करने के लिए, Bootstrap 5 के source code को download करें और `_custom.scss` फ़ाइल में अपने theme variables और styles बदलें। फिर, compile करें और custom CSS को include करें।
+
+23. **Bootstrap 5 में breakpoints क्या हैं?**
+    Bootstrap 5 में breakpoints मीडिया क्वेरी स्थापित करते हैं जो responsive design को control करते हैं। उदाहरण के लिए, `.col-sm-4` कहता है कि column small और उसके ऊपर के आकारों में से 4 को व्यापारिक करना है।
