@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    
+
+    ul{
+        display: flex;
+        margin: 10px;
+        padding: 0 10px;
+
+        li{
+            list-style: none;
+            padding: 10px 10px;
+        }
+    }
+
+    .bt{
+        width: 10rem;
+    padding: 10px;
+    font-size: large;
+    background-color: aqua;
+    color:black;
+    }
+    
+}
