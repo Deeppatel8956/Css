@@ -1,0 +1,30 @@
+@for $i from 3 through 4{
+    .list{
+        width:100px;
+    }
+}
+@for $i from 3 through 4{
+    .list-#{$i}{
+        width:100px;
+    }
+}
+@for $i from 3 through 4{
+    .list-#{$i}{
+        width:100px*$i;
+    }
+}
+
+// each
+@each $i in (normal,bold,italic){
+    .#{$i}{
+        font-weight: $i;
+    }
+}
+
+// while
+$i:10;
+@while $i <= 50{
+    .#{$i}{
+        padding:10px;
+    }
+}
