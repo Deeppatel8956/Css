@@ -1,0 +1,16 @@
+.pnd{
+    font-family: map-get( $font-ws,"bold");
+    font-family: map-values($font-ws );
+    font-size: map-keys($mr);
+    font-weight: map-values($mt ); 
+    margin: variable-exists($num );
+    $char:"arial";
+    padding: global-variable-exists($char );
+}
+
+// Map
+$font-ws:("regular":200,"bold":400);
+$ft-ws:("regular":200,"bold":400);
+$mt:map-remove($font-ws,"bold");
+$num:10px;
+$mr:map-merge($font-ws,$ft-ws);
