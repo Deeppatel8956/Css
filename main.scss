@@ -1,0 +1,99 @@
+@import '../scss/nested';
+@import '../scss/mixin';
+@import '../scss/loop';
+$min-color:blue;
+*{margin: 0;
+padding: 0;
+background-color: $min-color;
+}
+
+.bo{
+    @include btn;
+}
+
+.ko{
+    margin: abs($number: -10);
+    padding: ceil($number: 4.5);
+    height: floor($number: 4.2);
+    width: round($number: 4.9);
+    border: comparable($number1: 2px, $number2: 1px);
+    margin-top: percentage($number: 0.4);
+}
+
+// String function
+.ko p{
+    font-size: quote($string: "Arial");
+    font-size: unquote($string: "Arial");
+    font-family: to-upper-case($string: "Arial");
+    font-weight: to-lower-case($string: "Arial");
+    font-size: str-length($string: "Arial");
+    font-size: str-slice($string: "Arial", $start: 3, $end: 4);
+    font-size: str-index($string: "", $substring: "s");
+    font-size: str-insert($string: "jbhbf jbyv", $insert:"ygyvgv" , $index: 9 );
+}
+
+
+// Colors function
+.pn{
+    // background-color: darken($color: blue, $amount: 0.5);
+    // background-color: lighten($color: red, $amount: 40);
+    // background-color: adjust-hue($color: black, $degrees: 60);
+    // background-color: saturate($color: green, $amount: 50);
+    // background-color: desaturate($color: green, $amount: 50);
+    background-color: transparentize($color: purple, $amount: 0.5);
+}
+
+
+// Selector Nest
+// $selector: selector-nest("ul", "li")
+// $selector: selector-append($selectors:"a",".active");
+// $selector: selector-replace(".abc",".copy")
+// $selector: is-superselector($super:"a" , $sub:"a.active" )
+// $selector: selector-unify($selector1: "a", $selector2:".abc" )
+// $selector: simple-selectors($selector: "a",".abc")
+// $selector: simple-extend($selector: "a",".abc")
+
+
+
+// #{$selector}{
+//     width: 30px;
+// }
+
+
+
+.pnd{
+    font-family: map-get( $font-ws,"bold");
+    font-family: map-values($font-ws );
+    font-size: map-keys($mr);
+    font-weight: map-values($mt ); 
+    margin: variable-exists($num );
+    $char:"arial";
+    padding: global-variable-exists($char );
+}
+
+// Map
+$font-ws:("regular":200,"bold":400);
+$ft-ws:("regular":200,"bold":400);
+$mt:map-remove($font-ws,"bold");
+$num:10px;
+$mr:map-merge($font-ws,$ft-ws);
+
+
+
+// contant
+@mixin test{
+    #menu{
+       @content;     
+    }
+}
+
+@include test(){
+    .block{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+}
+
+
