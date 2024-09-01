@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.2s linear;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.od {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#blog {
+  height: auto;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+#blog button {
+  border: none;
+  outline: none;
+  margin-top: 0.1rem;
+  padding: 0.7rem;
+  background-color: green;
+  color: white;
+  margin: 6rem 0;
+}
+#blog button:hover {
+  background-color: white;
+  color: black;
+}
+#blog h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: black;
+  text-align: center;
+}
+#blog h1 span {
+  font-style: italic;
+  color: green;
+}
+#blog .blog-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(20rem, 30rem));
+  grid-template-rows: repeat(2, minmax(20rem, 30rem));
+  grid-gap: 5rem;
+  place-items: center;
+}
+#blog .blog {
+  height: 100%;
+  width: 100%;
+  margin: 2rem 0;
+}
+#blog .blog img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  .blog-container {
+    grid-template-columns: repeat(2, minmax(20rem, 30rem));
+    grid-template-rows: repeat(2, minmax(20rem, 30rem));
+  }
+}/*# sourceMappingURL=style.css.map */
